@@ -1,15 +1,10 @@
 <template>
-  <div id="app">
-    <Login />
-    <Signup />
-    <ForgotPassword />
-    <router-view/>
-    <div class="vue-tempalte">
+  <div class="vue-tempalte" id="x">
     <!-- Navigation -->
     <nav class="navbar shadow bg-white rounded justify-content-between flex-nowrap flex-row fixed-top">
       <div class="container">
         <a class="navbar-brand float-left" href="#" target="_blank">
-           Customer Service Assistace and Complaint system
+            customer service and compiant
         </a>
         <ul class="nav navbar-nav flex-row float-right">
           <li class="nav-item">
@@ -31,32 +26,14 @@
       </div>
     </div>
   </div>
-  </div>
 </template>
-
-<script>
-import Login from './components/Login.vue'
-
-import Signup from './components/Signup.vue'
-
-import ForgotPassword from './components/ForgotPassword.vue'
-
-export default {
-  name: 'App',
-  components: {
-    Signup,
-    Login,
-    ForgotPassword
-  }
-}
-</script>
-
 <style>
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
+  background-color: aqua;
   margin-top: 60px;
   align-items: center
 }

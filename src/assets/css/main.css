@@ -1,16 +1,20 @@
 * {
     box-sizing: border-box;
+    background-repeat: no-repeat;
   }
   
   body {
-    background: #0F2941 !important;
+    background: #0F2941;
     min-height: 100vh;
     display: flex;
     font-weight: 400;
+    
   }
   h3{
    text-align: center;
   }
+
+
   body,
   html,
   .App,
@@ -22,19 +26,16 @@
     justify-content: center;
     background-color:#ffffff; 
     border-radius: 15px;
+    
   }
   
   .navbar-light {
     background-color: #ffffff;
     box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    
   }
-  /*.form-group{
+  .form-group{
     align-items: left;
-  }*/
-  .x{
-    display: inline-block;
-    margin: 30px 60px;
-    border-radius: 15px;
   }
   .vertical-center {
     display: flex;
@@ -98,7 +99,7 @@
   .social-icons ul li {
     display: inline-block;
     zoom: 1;
-    width: 65px;
+    width: 50px;
     vertical-align: middle;
     border: 1px solid #e3e8f9;
     font-size: 15px;

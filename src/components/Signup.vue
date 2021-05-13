@@ -7,6 +7,10 @@
                 <label>Full Name</label>
                 <input type="text" class="form-control form-control-lg"/>
             </div>
+            <div class="form-group">
+                <label>BP Number</label>
+                <input type="text" class="form-control form-control-lg" />
+            </div>
 
             <div class="form-group">
                 <label>Email address</label>
@@ -21,7 +25,7 @@
             <button type="submit" class="btn btn-dark btn-lg btn-block">Sign Up</button>
 
             <p class="forgot-password text-right">
-                Already Registered 
+                already register
                 <router-link :to="{name: 'login'}">sign in?</router-link>
             </p>
         </form>
@@ -30,7 +34,7 @@
 <script>
 export default {
   name: 'Signup',
-  data() {
+  data () {
     return {}
   }
 }
