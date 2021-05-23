@@ -1,7 +1,7 @@
 <template>
   <div class="vue-tempalte" id="x">
     <!-- Navigation -->
-    <nav class="navbar shadow bg-white rounded justify-content-between flex-nowrap flex-row fixed-top">
+    <!-- <nav class="navbar shadow bg-white rounded justify-content-between flex-nowrap flex-row fixed-top">
       <div class="container">
         <a class="navbar-brand float-left" href="#" target="_blank">
             customer service and compiant
@@ -15,15 +15,16 @@
           </li>
         </ul>
       </div>
-    </nav>
+    </nav> -->
 
     <!-- Main -->
     <div class="App">
-      <div class="vertical-center">
+      <!-- <div class="vertical-center">
         <div class="inner-block">
           <router-view />
         </div>
-      </div>
+      </div> -->
+      <router-view />
     </div>
   </div>
 </template>

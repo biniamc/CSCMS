@@ -24,7 +24,6 @@ const routes = [
     component: () => import('../components/ComplaintPage.vue')
   }
 ]
-
 const router = new Router({
   mode: 'history',
   base: process.env.BASE_URL,

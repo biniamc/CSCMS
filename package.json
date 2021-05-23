@@ -15,9 +15,14 @@
   },
   "dependencies": {
     "@popperjs/core": "^2.9.2",
+    "body-parser": "^1.19.0",
     "bootstrap": "^4.6.0",
     "bootstrap-vue": "^2.21.2",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
+    "mongoose": "^5.12.10",
+    "mongose": "0.0.2-security",
+    "nodemon": "^2.0.7",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },

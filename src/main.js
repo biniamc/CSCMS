@@ -9,6 +9,8 @@ import '@/assets/css/main.css'
 
 Vue.config.productionTip = false
 
+// eslint-disable-next-line one-var
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
