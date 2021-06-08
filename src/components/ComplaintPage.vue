@@ -45,7 +45,7 @@
               <div class="col-4">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                   <li class="nav-item">
-                    <router-link class="btn btn-outline text-white   h6" to="/">Home</router-link>
+                    <router-link class="btn btn-outline text-white   h6" to="#">Home</router-link>
                   </li>
                   <li class="nav-item">
                     <router-link class="btn btn-outline text-white h6" to="#">Status</router-link>
@@ -57,8 +57,8 @@
                         Notifications <span class="badge bg-secondary">4</span>
                   </button>
                   </li>
-                  <li class="nav-item">
-                    <router-link class="btn btn-outline text-white h6" to="#">Setting</router-link>
+                  <li class="nav-item dropdown">
+                    <router-link class="btn btn-outline text-white h6" to="#"> <a class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Setting</a></router-link>
                   </li>
                 </ul>
               </div>
@@ -68,17 +68,12 @@
                     <router-link class="btn btn-outline text-white   h6" to="/login">Login</router-link>
                   </li>
                   <li class="nav-item">
-                    <router-link class="btn btn-outline text-white h6" to="#">sdsa</router-link>
+                    <router-link class="btn btn-outline text-white h6" to="#">News</router-link>
                     <li class="nav-item">
-                    <router-link class="btn btn-outline text-white  h6" to="#">complaints</router-link>
+                    <router-link class="btn btn-outline text-white  h6" to="#">Alart</router-link>
                   </li>
                   <li class="nav-item">
-                    <button class="btn btn-outline text-white  h6">
-                        Notifications <span class="badge bg-secondary">4</span>
-                  </button>
-                  </li>
-                  <li class="nav-item">
-                    <router-link class="btn btn-outline text-white h6" to="#">Setting</router-link>
+                    <router-link class="btn btn-outline text-white h6" to="#">About</router-link>
                   </li>
                 </ul>
               </div>
@@ -88,7 +83,7 @@
               <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </form>
           </div>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo04" align="content-center">
+          <!-- <div class="collapse navbar-collapse" id="navbarTogglerDemo04" align="content-center">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item">
                   <router-link class="btn btn-outline text-white   h6" to="/">Login</router-link>
@@ -104,7 +99,7 @@
                 </button>
                  </li>
               </ul>
-          </div>
+          </div> -->
         </nav>
       <div class="mx-4"  style="margin-top: 5rem;">
 

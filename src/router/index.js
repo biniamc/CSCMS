@@ -19,6 +19,31 @@ const routes = [
     component: () => import('../components/ForgotPassword.vue')
   },
   {
+    path: '/admin',
+    name: 'admin',
+    component: () => import('../components/admin/admin.vue')
+  },
+  {
+    path: '/assistance',
+    name: 'assistance',
+    component: () => import('../components/assistance/assistance.vue')
+  },
+  {
+    path: '/customerService',
+    name: 'customerService',
+    component: () => import('../components/customerService/customerService.vue')
+  },
+  {
+    path: '/manager',
+    name: 'manager',
+    component: () => import('../components/manager/manager.vue')
+  },
+  {
+    path: '/technitial',
+    name: 'technitial',
+    component: () => import('../components/technitial/technitial.vue')
+  },
+  {
     path: '/ComplaintPage',
     name: 'ComplaintPage',
     component: () => import('../components/ComplaintPage.vue')
