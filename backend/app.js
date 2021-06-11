@@ -17,7 +17,7 @@ error => {
 }
 )
 
-const studentAPI = require('customerRoute')
+const studentAPI = require('./customerRoute')
 const app = express()
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({
