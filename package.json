@@ -5,7 +5,7 @@
   "author": " Biniam Chekol <>",
   "private": true,
   "main": "app.js",
-  "scripts": {
+  "scripts": { 
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
     "unit": "jest --config test/unit/jest.conf.js --coverage",
@@ -21,6 +21,7 @@
     "bootstrap-vue": "^2.21.2",
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "jquery": "^3.6.0",
     "mongoose": "^5.12.10",
     "mongose": "0.0.2-security",
     "nodemon": "^2.0.7",
